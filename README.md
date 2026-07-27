@@ -2,6 +2,8 @@
 
 [English](#english) | [中文](#中文)
 
+> **Provenance | 来源**：改编自 B 站 [YangAgent](https://space.bilibili.com/) 分享的白板动画生成思路，在原方案基础上扩展为三模式 + 多 provider 文生图架构。
+
 ---
 
 <a id="english"></a>
