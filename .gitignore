@@ -1,0 +1,57 @@
+# ── Python 虚拟环境（运行时自动创建）────────────────────
+.venv/
+venv/
+env/
+
+# ── Python 编译缓存 ────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+
+# ── 敏感信息 / API 密钥（绝不入库）─────────────────────
+.env
+.env.*
+!.env.example
+*.secret
+*_api_key*
+*_token*
+credentials.json
+secrets.json
+
+# ── 生成产物（视频、图片、分镜等运行时输出）────────────
+output/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# 分镜工作流中间产物
+groups.json
+storyboard.json
+storyboard/
+image/
+video/
+
+# ── 开发软件配置目录 / IDE ─────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ── 操作系统产生的文件 ─────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# ── 日志 / 临时文件 ────────────────────────────────────
+*.log
+.tmp/
+tmp/
